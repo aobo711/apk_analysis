@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var program = require('commander');
-var download = require('download');
+var download = require('./lib/download');
 var exec = require('child_process').exec;
 
 var dest = '/Users/jintian/work/apk_analysis/apks/';
