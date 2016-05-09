@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var program = require('commander');
-var download = require('download');
+var download = require('./lib/download');
 var exec = require('child_process').exec;
 
 
@@ -18,7 +18,7 @@ var dest = program.dest,
   start = program.start,
   packageName = program.packageName;
 
-dest = dest ? dest : '/Users/jintian/work/apk_analysis/apks/';
+dest = dest ? dest : './apks/';
 
 var downloadIndex = 0,
   apps = [];
