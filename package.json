@@ -1,0 +1,4 @@
+"dependencies": {
+  "commander": "^2.9.0",
+  "xml2js": "^0.4.16"
+}
