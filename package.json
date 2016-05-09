@@ -1,6 +1,10 @@
 {
 	"dependencies" : {
   		"commander": "^2.9.0",
-  		"xml2js" : "^0.4.16"
+  		"xml2js" : "^0.4.16",
+  		"request" : "^2.72.0",
+  		"bluebird" : "3.3.5",
+  		"path" : "^0.12.7",
+  		"puid" : "^1.0.5"
 	}
 }
